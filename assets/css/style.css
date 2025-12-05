@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin: 0px;
+  padding: 0px 32px;
+  background-color: rgb(233, 237, 238);
+}
+
+.darkbluetext {
+  color: rgb(16, 87, 97);
+}
+
+.logo-amazon {
+  background-color: rgb(34, 47, 63);
+}
+
+.headerlogo {
+  width: 135px;
+  margin: 10px 20px;
+}
+
+.header2div {
+  background-color: rgb(54, 71, 89);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.firstp {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.homepage-banner {
+  padding-top: 2rem;
+}
+.title-banner {
+  background-color: rgb(245, 102, 0);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.second-homepage-banner {
+  background-image: url(/assets/images/bg-image.png);
+  height: 160px;
+  position: relative;
+  width: 100%;
+  /* Background image properties */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* To make it smaller and fit entirely */
+  margin-bottom: 2rem;
+}
+
+.second-banner-image {
+  position: absolute; /* To take it out of normal flow and position precisely */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.second-banner-title {
+  margin-bottom: 1rem;
+}
+
+.second-banner-subtitle {
+  text-align: center;
+}
+
+.articles-container {
+  background-color: white;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.articles-title {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5rem 1rem;
+}
+
+.items-row {
+  text-align: center;
+}
+
+.article-row img {
+  max-width: 100%;
+  height: 25rem;
+  display: inline-block;
+  border-radius: 45px;
+  -webkit-box-shadow: 12px 7px 24px -10px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 12px 7px 24px -10px rgba(66, 68, 90, 1);
+  box-shadow: 12px 7px 24px -10px rgba(66, 68, 90, 1);
+}
+
+.articles-column {
+  display: inline-block;
+  text-align: center;
+}
+
+.article-row {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  box-sizing: border-box;
+  padding-left: 2rem;
+}
+
+#artrow1 {
+  padding-left: 0;
+}
+
+.vr-image-container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.vr-image {
+  background-image: url(../images/img_9.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  height: 50vh;
+}
+
+.textinline {
+  display: inline-block;
+}
+
+.marshall-container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.marshall-image {
+  background-image: url(../images/img_10.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  height: 50vh;
+}
+
+.marshall-title {
+  padding-botto: 2rem;
+}
+
+.banner-footer {
+  background-color: rgb(54, 71, 89);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.logo-amazon-bottom-container {
+  background-color: rgb(34, 47, 63);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footerlogo {
+  width: 135px;
+  margin: 10px 20px;
+}
